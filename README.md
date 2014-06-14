@@ -6,6 +6,7 @@ Sample code of command line tool to print arguments.
 License
 -------
 
+| File                     | License      |
 |:-------------------------|:------------:|
 | Files in ./c directory   | zlib License |
 | Files in other directory | CC0          |

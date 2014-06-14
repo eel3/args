@@ -1,0 +1,2 @@
+#!/usr/bin/env ruby
+Object::ARGV.each {|i| puts i }

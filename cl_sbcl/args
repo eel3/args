@@ -1,0 +1,2 @@
+#!/usr/bin/sbcl --script
+(dolist (arg (cdr *posix-argv*)) (write-line arg))

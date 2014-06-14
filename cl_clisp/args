@@ -1,0 +1,2 @@
+#!/usr/bin/env clisp
+(dolist (arg *args*) (write-line arg))

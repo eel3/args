@@ -1,0 +1,4 @@
+#!/usr/bin/scm -f
+(require 'common-list-functions)
+(require 'line-i/o)
+(for-each write-line (nthcdr 3 *argv*))

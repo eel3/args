@@ -1,0 +1,28 @@
+# @brief   args Makefile (common for Unix like environment).
+# @author  eel3
+# @date    2014/06/10
+
+app        := args
+CFLAGS     += -Wall -ansi -pedantic
+
+.PHONY: all
+all: $(app)
+
+.PHONY: test
+test: all
+	@cd test;   \
+	[ -d output ] || mkdir output;  \
+	for i in input/*; do    \
+		fn=`basename $$i`;  \
+		echo test: $$fn;    \
+		../$(app) `cat $$i` >output/$$fn;   \
+		diff -u --strip-trailing-cr required/$$fn output/$$fn;  \
+	done
+
+.PHONY: clean
+clean:
+	$(RM) $(app)
+
+.PHONY: distclean
+distclean: clean
+	$(RM) -r test/output

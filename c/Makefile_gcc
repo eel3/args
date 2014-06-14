@@ -1,0 +1,13 @@
+# @brief   args Makefile for GCC (Unix like environment).
+# @author  eel3
+# @date    2013/09/18
+#
+# @note
+# - GCC 4.2.1 (Xcode 4.6.1) on Mac OS X 10.8.4
+# - GCC 4.6.3 on Ubuntu 12.04 LTS 32bit
+# - TDM-GCC 4.7.1 (64bit) + Cygwin 1.7.20 on Windows 7 Ultimate 64bit SP1
+
+CC         := gcc
+CFLAGS      = -finput-charset=cp932
+
+include ./Makefile_common

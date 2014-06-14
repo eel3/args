@@ -1,0 +1,2 @@
+#!/usr/bin/env ruby
+ARGV.each {|i| puts i }

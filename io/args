@@ -1,0 +1,2 @@
+#!/usr/bin/env io
+System args rest foreach(key, value, writeln(value))

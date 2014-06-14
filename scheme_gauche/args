@@ -1,0 +1,4 @@
+#!/usr/bin/env gosh
+(define (main args)
+  (for-each print (cdr args))
+  0)

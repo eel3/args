@@ -1,0 +1,4 @@
+#!/usr/bin/rexx -a
+do i=1 to arg()
+  say arg(i)
+end

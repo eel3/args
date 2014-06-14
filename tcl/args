@@ -1,0 +1,2 @@
+#!/usr/bin/env tclsh
+foreach i $argv { puts $i }

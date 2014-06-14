@@ -1,7 +1,7 @@
 # @brief  args Makefile for Mac OS X Objective-C.
-# @date   2014/06/12
+# @date   2014/06/15
 
-app        := args args2
+app        := args args2 args3
 
 CC             := clang
 CFLAGS         := -Wall -std=gnu99 -pedantic -fobjc-arc

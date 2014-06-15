@@ -1,6 +1,6 @@
 /* ********************************************************************** */
 /**
- * @brief   command line tool to print arguments.
+ * @brief   Command line tool to print arguments.
  * @author  eel3
  * @date    2014/06/12
  */

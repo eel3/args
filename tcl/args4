@@ -1,0 +1,2 @@
+#!/usr/bin/env tclsh
+for "set i 0" "\$i < \$argc" "incr i" "puts \[lindex \$argv \$i]"

@@ -1,0 +1,10 @@
+<#@ template language="C#" culture="ja-JP" hostspecific="true" #>
+<#@ output extension=".txt"encoding="us-ascii" #>
+<#
+    int nparams = int.Parse(this.Host.ResolveParameterValue("", "", "np"));
+    for (var i = 0; i < nparams; i++) {
+#>
+<#= this.Host.ResolveParameterValue("", "", String.Format("p{0}", i)) #>
+<#
+    }
+#>

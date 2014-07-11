@@ -1,0 +1,3 @@
+#!/usr/bin/env phantomjs
+phantom.args.forEach(function (arg) { console.log(arg); });
+phantom.exit();

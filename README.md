@@ -7,9 +7,14 @@ License
 -------
 
 | File                     | License           |
-|:-------------------------|:-----------------:|
+|:-------------------------|:------------------|
 | Files in ./c directory   | zlib License      |
 | Files in other directory | CC0 1.0 Universal |
+
+Usage
+-----
+
+Simply execute `args`. args has no option.
 
 Example
 -------

@@ -1,8 +1,8 @@
-program Args3;
-
 {$CODEPAGE UTF8}
 {$MODE OBJFPC}
 {$LONGSTRINGS ON}
+
+program Args3;
 
 uses
   CustApp;
@@ -19,7 +19,7 @@ var
 begin
   for i := 1 to ParamCount do
     WriteLn(Params[i]);
-  Terminate();
+  Terminate;
 end;
 
 var

@@ -1,8 +1,8 @@
-program Args;
-
 {$CODEPAGE UTF8}
 {$MODE OBJFPC}
 {$LONGSTRINGS ON}
+
+program Args;
 
 var
   i : Integer;

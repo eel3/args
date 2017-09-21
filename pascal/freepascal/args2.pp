@@ -1,8 +1,8 @@
-program Args2;
-
 {$CODEPAGE UTF8}
 {$MODE OBJFPC}
 {$LONGSTRINGS ON}
+
+program Args2;
 
 uses
   CustApp;

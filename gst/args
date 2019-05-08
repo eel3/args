@@ -1,2 +1,5 @@
 #!/usr/bin/gst -f
+" -*- coding: utf-8-unix -*- "
+" vim:fileencoding=utf-8:ff=unix "
+
 Smalltalk arguments do: [:x | x displayNl].

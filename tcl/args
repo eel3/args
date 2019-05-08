@@ -1,2 +1,5 @@
 #!/usr/bin/env tclsh
+# -*- coding: utf-8-unix -*-
+# vim:fileencoding=utf-8:ff=unix
+
 foreach i $argv { puts $i }

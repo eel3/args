@@ -1,2 +1,5 @@
 #!/usr/bin/env clisp
+;;; -*- coding: utf-8-unix -*-
+;;; vim:fileencoding=utf-8:ff=unix
+
 (dolist (arg *args*) (write-line arg))

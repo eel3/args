@@ -1,4 +1,7 @@
 #!/usr/bin/scm -f
+;;; -*- coding: utf-8-unix -*-
+;;; vim:fileencoding=utf-8:ff=unix
+
 (require 'common-list-functions)
 (require 'line-i/o)
 (for-each write-line (nthcdr 3 *argv*))

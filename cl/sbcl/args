@@ -1,2 +1,5 @@
 #!/usr/bin/sbcl --script
+;;; -*- coding: utf-8-unix -*-
+;;; vim:fileencoding=utf-8:ff=unix
+
 (dolist (arg (cdr *posix-argv*)) (write-line arg))

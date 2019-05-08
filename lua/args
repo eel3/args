@@ -1,2 +1,5 @@
 #!/usr/bin/env lua
+-- -*- coding: utf-8-unix -*-
+-- vim:fileencoding=utf-8:ff=unix
+
 for i=1, #arg do print(arg[i]) end

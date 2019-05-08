@@ -1,2 +1,5 @@
 #!/usr/bin/env scala
+// -*- coding: utf-8-unix -*-
+// vim:fileencoding=utf-8:ff=unix
+
 args.foreach { arg => println(arg) }

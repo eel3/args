@@ -1,3 +1,8 @@
+{
+  -*- coding: utf-8-unix -*-
+  vim:fileencoding=utf-8:ff=unix
+}
+
 {$CODEPAGE UTF8}
 {$MODE OBJFPC}
 {$LONGSTRINGS ON}

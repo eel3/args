@@ -1,2 +1,5 @@
 #!/usr/bin/env io
+# -*- coding: utf-8-unix -*-
+# vim:fileencoding=utf-8:ff=unix
+
 System args rest foreach(key, value, writeln(value))

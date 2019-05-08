@@ -1,4 +1,9 @@
 #!/usr/bin/rexx -a
+/*
+ * -*- coding: utf-8-unix -*-
+ * vim:fileencoding=utf-8:ff=unix
+ */
+
 do i=1 to arg()
   say arg(i)
 end

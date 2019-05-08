@@ -1,2 +1,5 @@
 #!/usr/bin/env gosh
+;;; -*- coding: utf-8-unix -*-
+;;; vim:fileencoding=utf-8:ff=unix
+
 (for-each print *argv*)

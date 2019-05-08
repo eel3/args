@@ -1,3 +1,6 @@
+// -*- coding: utf-8-unix -*-
+// vim:fileencoding=utf-8:ff=unix
+
 #import <Foundation/Foundation.h>
 #include <stdio.h>
 

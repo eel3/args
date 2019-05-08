@@ -1,2 +1,5 @@
 #!/bin/sh
+# -*- coding: utf-8-unix -*-
+# vim:fileencoding=utf-8:ff=unix
+
 [ $# = 0 ] || printf %s\\n "$@"
